@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-color: #f3f9f9;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size:16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+.page-wrapper{
+    display:flex;
+}
+
+.sidebar-div{
+    width:250px;
+    min-height: 100vh;
+    background:#160647;
+    color:#47beb9;
+}
+
+main.admin-layout{
+    width:calc(100% - 250px);
+    background:#f3f9f9;
+}
+
+.page-content{
+    min-height: 100vh;
+    padding:15px 20px;
+}
+
+.logo{
+    display:flex;
+    height:60px;
+    align-items: center;
+    justify-content: center;
+    background:#47beb9;
+}
+
+.header{
+    height:60px;
+    background:#47beb9;
+}
+
+.logo a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:32px;
+    font-weight: 600;
+}
+
+.side-menu .nav-item{
+    flex-grow: 1;
+}
+
+.side-menu .nav-item a{
+    padding: 10px;
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+.side-menu .nav-item a:hover{
+    background:#47beb9;
+    color:#fff;
+}
+
+.navbar-brand svg{
+    margin-top:-5px;
+    color:#fff;
+}
+
+.admin-footer{
+    background:#47beb9;
+    color:#fff;
+    font-weight: 500;
+}
+
+.form-label{
+    text-transform: capitalize;
+}
+
+.admin-layout header a{
+    color:#fff;
+    font-weight: 500;
+    text-transform:capitalize;
+    letter-spacing: .5px;
+}
+
+.admin-layout header a:hover{
+    color:#fff;
+}

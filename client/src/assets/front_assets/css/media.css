@@ -1,0 +1,76 @@
+@media screen and (max-width:767px){
+    .section-heading{
+        font-size: 24px;
+    }
+
+    .banenr-heading{
+        font-size:34px;
+    }
+
+    .security-div{
+        padding:1rem;
+    }
+
+    .security-imgs img{
+        max-width:100px !important
+    }
+
+    .banner-button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-ai .container{
+        padding:0px;
+    }
+
+    .about-ai .container .row + div{
+        padding:0 15px;
+    }
+
+    .video-box{
+        height:250px;
+    }
+
+    .testimonial-box{
+        padding:15px;
+    }
+
+    .security-section{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    
+    .dot-img{
+        display:none;
+    }
+
+    ul.nav.footer-social.justify-content-end{
+        margin-top:15px;
+        justify-content: start !important;
+    }
+
+    .footer-nav li:first-child a{
+        padding-left:0px;
+    }
+
+    .newsletter{
+        margin-top:30px;
+    }
+
+    .google-button + .between-text{
+        margin:10px 0px !important;
+    }
+
+    .goal-box-heading, .about-box-text a{
+        font-size:1em;
+    }
+
+    .security-text{
+        text-align: justify !important;
+    }
+    
+    .header-button{
+        text-align: center;
+    }
+}
